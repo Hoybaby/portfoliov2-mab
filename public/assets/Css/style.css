@@ -148,3 +148,9 @@ nav { display: none; }
 
 /* my services */
 
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../images/services-bg.jpg);
+
+    color: var(--clr-light);
+}
