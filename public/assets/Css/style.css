@@ -153,6 +153,7 @@ nav { display: none; }
     background-image: url(../images/services-bg.jpg);
     background-size: cover; 
     color: var(--clr-light);
+    text-align: center;
 }
 
 .section__title--services {
@@ -164,5 +165,5 @@ nav { display: none; }
     content: '';
     display: block;
     height: 1px;
-    margin: 0.5em auto 1 em;
+    margin: 0.5em auto 1em;
 }
