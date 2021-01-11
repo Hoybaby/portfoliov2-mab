@@ -57,6 +57,8 @@ img {
 
 strong { font-weight: var(--fw-bold) }
 
+.btn
+
 /* Typography */
 
 h1,
@@ -160,7 +162,7 @@ nav { display: none; }
     color: var(--clr-accent);
     position: relative;
 }
-
+/* can make this into typography */
 .section__title--services::after {
     content: '';
     display: block;
@@ -169,6 +171,11 @@ nav { display: none; }
     margin: 0.5em auto 1em;
     background: var(--clr-accent);
     opacity: 0.50;
+}
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 @media (min-width: 800px) {
