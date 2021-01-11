@@ -259,3 +259,14 @@ nav { display: none; }
         z-index: 2;
     }
 }
+
+.my-work {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+}
