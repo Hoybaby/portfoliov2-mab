@@ -220,7 +220,7 @@ nav { display: none; }
 
 @media (min-width: 600px) {
     .about-me {
-        display:grid;
+        display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas:
             "title img"
@@ -228,16 +228,16 @@ nav { display: none; }
             "text img";
     }
 
-    .section__title--about,
-    .section__subtitle--about {
-        grid-column: 1;
+    .section__title--about {
+        grid-area: title;
     }
+    
 
-    .section__subtitle--about {
-        grid-column: 1;
-    }
+    /* .section__subtitle--about {
+        grid-column: title;
+    } */
 
     .about-me__img {
-       grid-area: img;
+        grid-area: img;
     }
 }
