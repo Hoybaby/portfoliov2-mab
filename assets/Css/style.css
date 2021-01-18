@@ -6,6 +6,11 @@
 
 /* Custom Properties, update these for your own design */
 
+.sizing {
+    height: 362px;
+    width: 480px;
+}
+
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
