@@ -155,7 +155,20 @@ header {
     right:0;
     z-index:100;
 
-    transform: translateX(50%)
+    transform: translateX(0%);
+    transition: transofrm 250 ms cubic-bezier(.5, 0, .5, 1);
+}
+
+.nav__list {
+    list-style:none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav__link {
+    color: inherit;
 }
 
 
