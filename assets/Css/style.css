@@ -11,6 +11,8 @@
     width: 480px;
 }
 
+
+/* making custom varibales for css so i can call it later */
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -20,7 +22,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #eb3629;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -189,6 +191,11 @@ header {
     position: absolute;
     right:1em;
     top:1em;
+    z-index: 1000;
+}
+
+.nav-open .nav {
+    transform: translateX(0);
 }
 
 .hamburger {
@@ -199,7 +206,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
